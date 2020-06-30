@@ -2,9 +2,11 @@ package a.basics.a.variables;
 
 /**
  * Class Demonstrating the Java variables: How to declare, initialize, update
- * and use in the calculations.
+ * and use in the calculations.<br />
+ * A variable is a name given to a memory location. It is the basic unit of
+ * storage in a program.<br /><br />
  */
-public class Variables {
+public class AVariables {
     public static void main(String[] args) {
         // Variable declaration
         // Format:

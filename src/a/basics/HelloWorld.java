@@ -1,7 +1,27 @@
 package a.basics;
 
 /**
- * Hello World class
+ * Hello World class to start with Java Technology.
+ * <br />
+ * <strong>Important Official References:</strong>
+ * <ul>
+ *     <li>
+ *         <a href="https://docs.oracle.com/javase/tutorial/getStarted/cupojava/index.html">
+ *             The "Hello World!" Application</a>
+ *     </li>
+ *     <li>
+ *         <a href="https://docs.oracle.com/javase/tutorial/index.html">
+ *             The Java™ Tutorials</a>
+ *     </li>
+ *     <li>
+ *         <a href="https://www.oracle.com/java/technologies/language-environment.html">
+ *             The Java Language Environment: Contents</a>
+ *     </li>
+ *     <li>
+ *         <a href="https://docs.oracle.com/javase/tutorial/java/TOC.html">
+ *             Learning the Java Language</a>
+ *     </li>
+ * </ul>
  */
 public class HelloWorld {
 
