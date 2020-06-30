@@ -1,5 +1,8 @@
 package a.basics;
 
+/**
+ * Hello World class
+ */
 public class HelloWorld {
 
     // This is a single line comment, which will be ignored by java compiler.
@@ -19,7 +22,11 @@ public class HelloWorld {
      */
     public static void main(String[] args) {
         // This will print "Hello World!" on the console
-        System.out.println("Hello World");
+        System.out.println("Hello World!");
+        // System: Class
+        // out: Instance or Object of PrintStream class
+        // println: method of PrintStream class (method of "out" instance)
+        // "Hello World!": String literal
 
         // This will print 4
         System.out.println(2 + 2);
@@ -35,5 +42,8 @@ public class HelloWorld {
         System.out.println(10 + 4 * 25 / 5 * 5 - 10);
         // Prints 10 + (4 * (25 / 5) * 5) - 10)  =  10 + (4 * 5 * 5) - 10  =
         // 10 + 100 - 10  =  100
+
+        System.out.println(2 + 3.143); // Prints 5.143
+        System.out.println(55.85 - 33.63); // Prints 22.22
     }
 }

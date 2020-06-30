@@ -31,14 +31,30 @@ public class Variables {
         int sum = variable1 + variable2;
 
         // Print the values of all variables
-        System.out.println("variable1: " + variable1);
-        System.out.println("variable2: " + variable2);
-        System.out.println("Sum: " + sum);
+        System.out.println("variable1");
+        System.out.println(variable1);
+        System.out.println("variable2");
+        System.out.println(variable2);
+        System.out.println("Sum");
+        System.out.println(sum);
+
+        /*
+         * What is the difference between: "variable1" and variable1 ?
+         * the former is a String literal and later is an integer variable.
+         * Integer: any whole number (+ve or -ve).
+         * String: Sequence of characters(any characters). It can contain any
+         *  characters like: !@#$%^&*()_+"
+         */
+        String stringVariable = "I am a stringVariable.";
+        System.out.println(stringVariable);
 
 
         // New way to declare variables from JDK-11:
         var variable3 = 100;
         var variable4 = "Hello";
+
+        System.out.println(variable3);
+        System.out.println(variable4);
 
         // While using "var" declaration and initialization both are must
         // unlike using the type format.
@@ -49,7 +65,7 @@ public class Variables {
 
         This gives below error:
         Error:(47, 13) java: cannot infer type for local variable variable5
-  (cannot use 'var' on variable without initializer)
+                        (cannot use 'var' on variable without initializer)
          */
 
     }
