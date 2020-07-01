@@ -52,5 +52,24 @@ public class BVariableNaming {
 
         // Examples of invalid Variable names:
 
+        // int 1myVariable;
+
+        /* Variable name cannot start with number, above declaration fails to
+         * compile with below errors:
+         * Cannot resolve symbol 'myVariable' (IntelliJ warning)
+         * Error:(55, 9) java: not a statement
+         * Error:(55, 12) java: ';' expected
+         * Error:(55, 14) java: not a statement
+         */
+
+
+        // int my@Var;
+
+        /* Variable name cannot contain special character other than $(dollar)
+         * and _(underscore), above declaration fails to compile with below
+         * errors:
+         * Cannot resolve symbol 'Var' (IntelliJ warning)
+         * Error:(65, 15) java: illegal start of type
+         */
     }
 }
