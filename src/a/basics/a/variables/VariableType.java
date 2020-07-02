@@ -107,19 +107,24 @@ public class VariableType {
          * Error:(102, 48) java: variable localVariable might not have been
          * initialized
          * Important Note: Local variable cannot be used before they are
-         * initialized first
-         * The reason is:
-         *  - They are kind of temp and local to method(local scope)
+         * initialized first The reason is:
          *  - They won't get default values like instance and static variables.
-         *  - Resides on stack memory(not on heap like instance variables)
-         *  - will stay in memory only while the method is executing
+         *  And reason for not getting default value is:
+         *  - They are kind of temporary and local to method(local scope)
+         * Other points about local variables:
+         *  - They resides on stack memory(not on heap, like instance variables)
+         *  - They will stay in memory only while the method is executing
          *  - There is no use of local variables outside the method, hence it
          *    doesn't make any sense to keep it uninitialized.
          * As such, local variables are only visible to the methods in which
          * they are declared; they are not accessible from the rest of the
          * class.
          * Read more about this here: https://bit.ly/3glPu1L
+         *
+         * So, let us initialize and use the local variable now:
          */
+        localVariable = 7;
+        System.out.println("localVariable: " + localVariable);
 
 
         // 4. Parameter:
