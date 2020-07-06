@@ -1,7 +1,16 @@
 package a.basics.a.variables.scope;
 
 /**
- * Class to demo Local Variables and their scope
+ * Class to demo Local Variables and their scope:
+ * <ul><li><strong>Local Variables:</strong> Similar to how an object stores its
+ * state in fields, a method will often store its temporary state in <i>local
+ * variables</i>. The syntax for declaring a local variable is similar to
+ * declaring a field (for example, <code>int count = 0;</code>). There is no
+ * special keyword designating a variable as local; that determination comes
+ * entirely from the location in which the variable is declared — which is
+ * between the opening and closing braces of a method. As such, local variables
+ * are only visible to the methods in which they are declared; they are not
+ * accessible from the rest of the class.</li></ul>
  */
 public class LocalVariables {
     public static void main(String[] args) {
