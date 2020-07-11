@@ -19,19 +19,27 @@ package a.basics.a.variables.scope;
  *         without creating an instance of a class </li>
  *         <li>While calling(invoking) static or instance method from outside
  *         the class which holds them, it is required to use
- *         dot notation. To be precise, static methods should be called like
+ *         dot(.) notation. To be precise, static methods should be called like
  *         ClassName.staticMethodName() and instance methods should be called
  *         by instanceName.instanceMethodName()</li>
  *         <li>While calling(invoking) static or instance method within the
- *         same class which holds them, it is not required..., but this or
- *         className can be used.
- *         this and classname are also optional</li>
+ *         same class which holds them, it is not required to use dot
+ *         notation, you can directly call them since they belong to the same
+ *         class. If we want to use the dot notations within class,we need to
+ *         still use ClassName for static methods and instance name or "this"
+ *         keyword for the instance methods.</li>
+ *         <li>"this" keyword refers to the current instance of the class and
+ *         will be added by compiler even if you don't specify explicitly.</li>
+ *         <li>"this" keyword cannot be used in the static method context, as it
+ *         belongs to the whole class and not to any specific instance.</li>
  *     </ul>
  * </li>
  * <li>
  *     Variables:
  *     <ul>
- *
+ *         <li>Just like instance methods, instance variables cannot be
+ *         references from the static methods directly, without creating
+ *         instance of a</li>
  *     </ul>
  * </li>
  * </ul>
